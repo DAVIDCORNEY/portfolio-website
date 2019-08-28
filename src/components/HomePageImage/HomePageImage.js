@@ -1,4 +1,5 @@
 import React from "react";
+import "./HomePageImage.css";
 
 const HomePageImage = () => {
   return (
@@ -12,10 +13,7 @@ const HomePageImage = () => {
             <div className="h1-intro-text">
               <h1>Junior Full Stack Developer</h1>
             </div>
-            <a
-              class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
-              href="#services"
-            >
+            <a class="btn btn-primary btn-xl text-uppercase" href="#projects">
               See My Projects
             </a>
           </div>
