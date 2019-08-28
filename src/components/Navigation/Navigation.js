@@ -3,10 +3,7 @@ import React from "react";
 const Navigation = () => {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-          Navbar w/ text
-        </a>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <button
           class="navbar-toggler"
           type="button"
@@ -22,21 +19,26 @@ const Navigation = () => {
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
               <a class="nav-link" href="#">
-                Home <span class="sr-only">(current)</span>
+                Home <span class="sr-only">Home</span>
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                Features
+                Portfolio
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                Pricing
+                About
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                Contact
               </a>
             </li>
           </ul>
-          <span class="navbar-text">Navbar text with an inline element</span>
+          <span class="navbar-text">07525 814776</span>
         </div>
       </nav>
     </div>
