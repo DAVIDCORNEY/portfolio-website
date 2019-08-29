@@ -1,9 +1,10 @@
 import React from "react";
+import "./Navigation.css";
 
 const Navigation = () => {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark" id="navMain">
         <button
           class="navbar-toggler"
           type="button"
