@@ -8,7 +8,9 @@ const HomePageImage = () => {
         <div className="container">
           <div className="intro-text">
             <h2 className="h2-intro-text">Hi I'm David</h2>
-            <h1 className="h1-intro-text">Junior Full Stack Developer</h1>
+            <h1 className="h1-intro-text text-uppercase">
+              Junior Full Stack Developer
+            </h1>
             <a class="btn btn-primary btn-xl text-uppercase" href="#projects">
               See My Projects
             </a>
