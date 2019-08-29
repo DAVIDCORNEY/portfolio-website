@@ -26,7 +26,8 @@
 header.home-image {
   text-align: center;
   color: white;
-  background-image: url("https://res.cloudinary.com/dcs/image/upload/v1567019625/Portfolio%20Website/portfolio-home-page-header.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url("https://res.cloudinary.com/dcs/image/upload/v1567019625/Portfolio%20Website/portfolio-home-page-header.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
