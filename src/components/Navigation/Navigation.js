@@ -3,7 +3,7 @@ import React from "react";
 const Navigation = () => {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
         <button
           class="navbar-toggler"
           type="button"
