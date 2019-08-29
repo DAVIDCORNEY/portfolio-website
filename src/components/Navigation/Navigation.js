@@ -37,7 +37,7 @@ const Navigation = () => {
               </a>
             </li>
           </ul>
-          <span class="navbar-text">07525 814776</span>
+          <span class="navbar-phone">07525 814776</span>
         </div>
       </nav>
     </div>
