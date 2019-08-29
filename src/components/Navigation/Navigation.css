@@ -27,6 +27,11 @@
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+#navMain .navbar-nav .nav-item .nav-link.active,
+#navMain .navbar-nav .nav-item .nav-link:hover {
+  color: #fb8122;
+}
+
 .navbar-phone {
   color: white;
 }
