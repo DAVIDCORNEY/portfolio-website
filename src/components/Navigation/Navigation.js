@@ -5,6 +5,9 @@ const Navigation = () => {
   return (
     <div>
       <nav class="navbar navbar-expand-lg fixed-top navbar-dark" id="navMain">
+        <a class="navbar-brand" href="#">
+          David Corney
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -18,11 +21,6 @@ const Navigation = () => {
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">
-                Home <span class="sr-only">Home</span>
-              </a>
-            </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
                 Portfolio
