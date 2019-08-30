@@ -1,11 +1,16 @@
 import React from "react";
+import moment from "moment";
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="container">
-        <div className="col-md-12">
-          <span class="copyright">David Corney &copy; 2019</span>
+        <div className="row align-items-center">
+          <div class="col-md-12">
+            <span class="copyright">
+              David Corney &copy; {moment().format("YYYY")}
+            </span>
+          </div>
         </div>
       </div>
     </footer>
