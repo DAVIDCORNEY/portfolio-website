@@ -4,6 +4,7 @@ import Navigation from "./components/Navigation/Navigation";
 import HomePageImage from "./components/HomePageImage/HomePageImage";
 import Projects from "./components/Projects/Projects";
 import About from "./components/About/About";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <HomePageImage />
       <Projects />
       <About />
+      <Contact />
     </div>
   );
 }
