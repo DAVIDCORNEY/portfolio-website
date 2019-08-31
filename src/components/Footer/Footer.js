@@ -7,8 +7,8 @@ const Footer = () => {
     <footer className="footer">
       <div className="container">
         <div className="row align-items-center">
-          <div class="col-md-12">
-            <span class="copyright">
+          <div className="col-md-12">
+            <span className="copyright">
               David Corney &copy; {moment().format("YYYY")}
             </span>
           </div>
