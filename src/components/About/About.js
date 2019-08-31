@@ -1,5 +1,14 @@
 import React from "react";
 import "./About.css";
+import {
+  FaHtml5,
+  FaCss3Alt,
+  FaJsSquare,
+  FaReact,
+  FaNode,
+  FaNpm,
+  FaGitSquare
+} from "react-icons/fa";
 
 const About = () => {
   return (
@@ -38,40 +47,25 @@ const About = () => {
             <div className="skills-icons">
               <ul class="list-inline dev-icons">
                 <li class="list-inline-item">
-                  <i class="fab fa-html5"></i>
+                  <FaHtml5 />
                 </li>
                 <li class="list-inline-item">
-                  <i class="fab fa-css3-alt"></i>
+                  <FaCss3Alt />
                 </li>
                 <li class="list-inline-item">
-                  <i class="fab fa-js-square"></i>
+                  <FaJsSquare />
                 </li>
                 <li class="list-inline-item">
-                  <i class="fab fa-angular"></i>
+                  <FaReact />
                 </li>
                 <li class="list-inline-item">
-                  <i class="fab fa-react"></i>
+                  <FaNode />
                 </li>
                 <li class="list-inline-item">
-                  <i class="fab fa-node-js"></i>
+                  <FaGitSquare />
                 </li>
                 <li class="list-inline-item">
-                  <i class="fab fa-sass"></i>
-                </li>
-                <li class="list-inline-item">
-                  <i class="fab fa-less"></i>
-                </li>
-                <li class="list-inline-item">
-                  <i class="fab fa-wordpress"></i>
-                </li>
-                <li class="list-inline-item">
-                  <i class="fab fa-gulp"></i>
-                </li>
-                <li class="list-inline-item">
-                  <i class="fab fa-grunt"></i>
-                </li>
-                <li class="list-inline-item">
-                  <i class="fab fa-npm"></i>
+                  <FaNpm />
                 </li>
               </ul>
             </div>
