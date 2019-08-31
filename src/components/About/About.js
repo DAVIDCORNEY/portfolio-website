@@ -12,7 +12,7 @@ const About = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-sm-6">
+          <div className="col-sm-5">
             <div className="about-me">
               <img
                 class="mx-auto rounded-circle"
