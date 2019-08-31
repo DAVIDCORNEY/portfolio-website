@@ -1,23 +1,19 @@
 import React from "react";
 
-const ProjectCard = () => {
+const ProjectCard = ({ thumbNail, alt, projectTitle, description }) => {
   return (
     <div className="col-md-4 col-sm-6 project-item">
-      <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-        <div class="portfolio-hover">
-          <div class="portfolio-hover-content">
-            <i class="fas fa-plus fa-3x"></i>
+      <a className="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+        <div className="portfolio-hover">
+          <div className="portfolio-hover-content">
+            <i className="fas fa-plus fa-3x"></i>
           </div>
         </div>
-        <img
-          class="img-fluid"
-          src="https://res.cloudinary.com/dcs/image/upload/v1567172702/Portfolio%20Website/dc-news-thumbnail-jpg.png"
-          alt="DC NEWS"
-        />
+        <img className="img-fluid" src={thumbNail} alt={alt} />
       </a>
-      <div class="portfolio-caption">
-        <h4>Threads</h4>
-        <p class="text-muted">Illustration</p>
+      <div className="portfolio-caption">
+        <h4>{projectTitle}</h4>
+        <p className="text-muted">{description}</p>
       </div>
     </div>
   );
