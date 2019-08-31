@@ -18,3 +18,11 @@
 .about-me p {
   margin-top: 0;
 }
+
+.dev-icons {
+  font-size: 3rem;
+}
+
+.dev-icons .list-inline-item:hover {
+  color: #fb8122;
+}
