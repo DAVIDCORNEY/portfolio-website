@@ -4,12 +4,15 @@ import "./Navigation.css";
 const Navigation = () => {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg fixed-top navbar-dark" id="navMain">
-        <a class="navbar-brand" href="#">
+      <nav
+        className="navbar navbar-expand-lg fixed-top navbar-dark"
+        id="navMain"
+      >
+        <a className="navbar-brand" href="#">
           David Corney
         </a>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarText"
@@ -17,27 +20,27 @@ const Navigation = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+        <div className="collapse navbar-collapse" id="navbarText">
+          <ul className="navbar-nav mr-auto">
+            <li className="nav-item">
+              <a className="nav-link" href="#">
                 Portfolio
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+            <li className="nav-item">
+              <a className="nav-link" href="#">
                 About
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+            <li className="nav-item">
+              <a className="nav-link" href="#">
                 Contact
               </a>
             </li>
           </ul>
-          <span class="navbar-phone">07525 814776</span>
+          <span className="navbar-phone">07525 814776</span>
         </div>
       </nav>
     </div>
