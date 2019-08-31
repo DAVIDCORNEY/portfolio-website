@@ -3,7 +3,7 @@ import ProjectCard from "../ProjectCard/ProjectCard";
 
 const Projects = () => {
   return (
-    <section className="bg-light page-section">
+    <section className="bg-light page-section" id="projects">
       <div className="container">
         <div className="row">
           <div className="col-lg-12 text-center">
