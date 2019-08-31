@@ -10,7 +10,19 @@ const About = () => {
             <h3 className="section-subheading text-muted">About Me</h3>
           </div>
         </div>
-        <div className="row"></div>
+        <div className="row">
+          <div className="col-sm-6">
+            <div className="about-me">
+              <img
+                class="mx-auto rounded-circle"
+                src="https://res.cloudinary.com/dcs/image/upload/v1567261524/Portfolio%20Website/david-corney.jpg"
+                alt="David Corney"
+              />
+              <h4>David Corney</h4>
+              <p class="text-muted">Junior Developer</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
