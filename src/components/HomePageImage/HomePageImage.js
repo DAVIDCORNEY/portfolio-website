@@ -11,7 +11,10 @@ const HomePageImage = () => {
             <h1 className="h1-intro-text text-uppercase">
               Junior Full Stack Developer
             </h1>
-            <a class="btn btn-primary btn-xl text-uppercase" href="#projects">
+            <a
+              className="btn btn-primary btn-xl text-uppercase"
+              href="#projects"
+            >
               See My Projects
             </a>
           </div>
