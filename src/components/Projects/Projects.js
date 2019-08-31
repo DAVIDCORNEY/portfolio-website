@@ -1,4 +1,5 @@
 import React from "react";
+import ProjectCard from "../ProjectCard/ProjectCard";
 
 const Projects = () => {
   return (
@@ -13,6 +14,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="row">
+          <ProjectCard />
           <div className="col-md-4 col-sm-6 project-item">
             <a
               class="portfolio-link"
