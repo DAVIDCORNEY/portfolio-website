@@ -41,14 +41,17 @@ const Navigation = () => {
               </a>
             </li>
           </ul>
-          <a className="navbar-email" href="mailto:cdavidmill@aol.com">
+          <a
+            className="nav-contact navbar-email"
+            href="mailto:cdavidmill@aol.com"
+          >
             cdavidmill@aol.com
           </a>
-          <a className="navbar-phone" href="tel:07525 814776">
+          <a className="nav-contact navbar-phone" href="tel:07525 814776">
             07525 814776
           </a>
           <a
-            className="navbar-linkedin"
+            className="nav-contact navbar-linkedin"
             href="https://www.linkedin.com/in/david-corney/"
             target="_blank"
             rel="noopener noreferrer"
@@ -56,7 +59,7 @@ const Navigation = () => {
             <FaLinkedin />
           </a>
           <a
-            className="navbar-github"
+            className=" nav-contact navbar-github"
             href="https://github.com/DAVIDCORNEY"
             target="_blank"
             rel="noopener noreferrer"
