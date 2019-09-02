@@ -3,14 +3,19 @@ ul.social-buttons {
 }
 
 ul.social-buttons li a {
-  font-size: 2.3rem;
+  font-size: 3rem;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   color: #1d2228;
+  margin-left: 8%;
 }
 
 ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
   color: #fb8122;
+}
+
+.download-cv {
+  margin-top: 6%;
 }
