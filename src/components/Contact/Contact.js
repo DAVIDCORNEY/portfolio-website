@@ -1,5 +1,11 @@
 import React from "react";
-import { FaMapMarkerAlt, FaMobileAlt, FaEnvelope } from "react-icons/fa";
+import {
+  FaMapMarkerAlt,
+  FaMobileAlt,
+  FaEnvelope,
+  FaGithub,
+  FaLinkedinIn
+} from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -25,6 +31,20 @@ const Contact = () => {
             <p>
               <FaEnvelope /> cdavidmill@aol.com
             </p>
+          </div>
+          <div className="col-lg-6 social-links">
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <FaGithub />
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <FaLinkedinIn />
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
