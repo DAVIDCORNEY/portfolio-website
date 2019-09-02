@@ -46,6 +46,9 @@ const Navigation = () => {
           <div className="navbar-linkedin">
             <FaLinkedin />
           </div>
+          <div className="navbar-github">
+            <FaGithub />
+          </div>
         </div>
       </nav>
     </div>
