@@ -27,7 +27,7 @@ const Contact = () => {
               <FaMapMarkerAlt /> Bradford, UK
             </p>
             <p>
-              <FaMobileAlt /> 07525 814776
+              <FaMobileAlt /> <a href="tel:07525 814776">07525 814776</a>
             </p>
             <p>
               <FaEnvelope /> cdavidmill@aol.com
