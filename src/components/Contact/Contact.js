@@ -46,7 +46,13 @@ const Contact = () => {
                 </a>
               </li>
             </ul>
-            <div className="btn btn-primary download-cv">Download My CV</div>
+            <a
+              className="btn btn-primary download-cv"
+              href="https://res.cloudinary.com/dcs/image/upload/v1567420059/David%20Corney%20CV/David-Corney-CV.pdf"
+              target="_blank"
+            >
+              Download My CV
+            </a>
           </div>
         </div>
       </div>
