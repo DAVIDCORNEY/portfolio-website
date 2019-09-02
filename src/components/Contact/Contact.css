@@ -1,0 +1,16 @@
+ul.social-buttons {
+  margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+  font-size: 2.5rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: #1d2228;
+}
+
+ul.social-buttons li a:active,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:hover {
+  color: #fb8122;
+}
