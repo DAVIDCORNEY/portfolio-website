@@ -41,31 +41,39 @@ const Navigation = () => {
               </a>
             </li>
           </ul>
-          <a
-            className="nav-contact navbar-email"
-            href="mailto:cdavidmill@aol.com"
-          >
-            cdavidmill@aol.com
-          </a>
-          <a className="nav-contact navbar-phone" href="tel:07525 814776">
-            07525 814776
-          </a>
-          <a
-            className="nav-contact navbar-linkedin"
-            href="https://www.linkedin.com/in/david-corney/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaLinkedin />
-          </a>
-          <a
-            className=" nav-contact navbar-github"
-            href="https://github.com/DAVIDCORNEY"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaGithub />
-          </a>
+          <div className="email">
+            <a
+              className="navbar-email nav-contact"
+              href="mailto:cdavidmill@aol.com"
+            >
+              cdavidmill@aol.com
+            </a>
+          </div>
+          <div className="phone">
+            <a className="navbar-phone nav-contact" href="tel:07525 814776">
+              07525 814776
+            </a>
+          </div>
+          <div className="linkedin">
+            <a
+              className="nav-contact navbar-linkedin"
+              href="https://www.linkedin.com/in/david-corney/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin />
+            </a>
+          </div>
+          <div className="github">
+            <a
+              className=" nav-contact navbar-github"
+              href="https://github.com/DAVIDCORNEY"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub />
+            </a>
+          </div>
         </div>
       </nav>
     </div>
