@@ -43,12 +43,22 @@ const Navigation = () => {
           </ul>
           <div className="navbar-email">cdavidmill@aol.com</div>
           <div className="navbar-phone">07525 814776</div>
-          <div className="navbar-linkedin">
+          <a
+            className="navbar-linkedin"
+            href="https://www.linkedin.com/in/david-corney/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaLinkedin />
-          </div>
-          <div className="navbar-github">
+          </a>
+          <a
+            className="navbar-github"
+            href="https://github.com/DAVIDCORNEY"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaGithub />
-          </div>
+          </a>
         </div>
       </nav>
     </div>
