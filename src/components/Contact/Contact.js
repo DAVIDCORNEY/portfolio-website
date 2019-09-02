@@ -30,7 +30,8 @@ const Contact = () => {
               <FaMobileAlt /> <a href="tel:07525 814776">07525 814776</a>
             </p>
             <p>
-              <FaEnvelope /> cdavidmill@aol.com
+              <FaEnvelope />{" "}
+              <a href="mailto:cdavidmill@aol.com">cdavidmill@aol.com</a>
             </p>
           </div>
           <div className="col-lg-6 social-links">
