@@ -34,6 +34,11 @@
 
 .navbar-phone {
   color: white;
+  margin-left: 1.5%;
+}
+
+.navbar-email {
+  color: white;
 }
 
 @media (min-width: 768px) {
