@@ -41,6 +41,13 @@
   color: white;
 }
 
+.navbar-linkedin {
+  color: white;
+  margin-bottom: 0.3%;
+  margin-left: 1.5%;
+  font-size: 1.3rem;
+}
+
 @media (min-width: 768px) {
   #navMain .navbar-nav .nav-item .nav-link {
     padding: 1.1em 1em !important;
