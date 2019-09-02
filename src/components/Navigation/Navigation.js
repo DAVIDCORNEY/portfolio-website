@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navigation.css";
+import { FaMobileAlt, FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Navigation = () => {
   return (
@@ -40,8 +41,11 @@ const Navigation = () => {
               </a>
             </li>
           </ul>
-          <span className="navbar-email">cdavidmill@aol.com</span>
-          <span className="navbar-phone">07525 814776</span>
+          <div className="nav-contact navbar-email">cdavidmill@aol.com</div>
+          <div className="nav-contact navbar-phone">07525 814776</div>
+          <div className="nav-contact navbar-linkedin">
+            <FaLinkedin />
+          </div>
         </div>
       </nav>
     </div>
