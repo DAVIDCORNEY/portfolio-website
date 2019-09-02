@@ -13,7 +13,19 @@ const Contact = () => {
             </h3>
           </div>
         </div>
-        <div className="row"></div>
+        <div className="row">
+          <div className="col-lg-6 text-left">
+            <p>
+              <span class=" glyphicon glyphicon-map-marker"></span> Bradford, UK
+            </p>
+            <p>
+              <span class="glyphicon glyphicon-phone"></span> 01234 567890
+            </p>
+            <p>
+              <span class="glyphicon glyphicon-envelope"></span> 123@123
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   );
