@@ -41,9 +41,9 @@ const Navigation = () => {
               </a>
             </li>
           </ul>
-          <div className="nav-contact navbar-email">cdavidmill@aol.com</div>
-          <div className="nav-contact navbar-phone">07525 814776</div>
-          <div className="nav-contact navbar-linkedin">
+          <div className="navbar-email">cdavidmill@aol.com</div>
+          <div className="navbar-phone">07525 814776</div>
+          <div className="navbar-linkedin">
             <FaLinkedin />
           </div>
         </div>
