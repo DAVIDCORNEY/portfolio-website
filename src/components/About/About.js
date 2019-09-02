@@ -47,12 +47,6 @@ const About = () => {
             <div className="skills-icons">
               <ul class="list-inline dev-icons">
                 <li class="list-inline-item">
-                  <FaHtml5 />
-                </li>
-                <li class="list-inline-item">
-                  <FaCss3Alt />
-                </li>
-                <li class="list-inline-item">
                   <FaJsSquare />
                 </li>
                 <li class="list-inline-item">
@@ -66,6 +60,12 @@ const About = () => {
                 </li>
                 <li class="list-inline-item">
                   <FaNpm />
+                </li>
+                <li class="list-inline-item">
+                  <FaHtml5 />
+                </li>
+                <li class="list-inline-item">
+                  <FaCss3Alt />
                 </li>
               </ul>
             </div>
