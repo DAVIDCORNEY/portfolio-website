@@ -1,3 +1,11 @@
+.contact-details-list p a {
+  color: #fb8122;
+}
+
+.contact-details-list p a:hover {
+  color: #fb6122;
+}
+
 ul.social-buttons {
   margin-bottom: 0;
 }
