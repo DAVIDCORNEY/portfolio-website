@@ -1,4 +1,5 @@
 import React from "react";
+import { FaMapMarkerAlt, FaMobileAlt, FaEnvelope } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -14,15 +15,15 @@ const Contact = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-lg-6 text-left">
+          <div className="col-lg-6 text-left contact-details">
             <p>
-              <span class=" glyphicon glyphicon-map-marker"></span> Bradford, UK
+              <FaMapMarkerAlt /> Bradford, UK
             </p>
             <p>
-              <span class="glyphicon glyphicon-phone"></span> 01234 567890
+              <FaMobileAlt /> 07525 814776
             </p>
             <p>
-              <span class="glyphicon glyphicon-envelope"></span> 123@123
+              <FaEnvelope /> cdavidmill@aol.com
             </p>
           </div>
         </div>
