@@ -40,6 +40,7 @@ const Navigation = () => {
               </a>
             </li>
           </ul>
+          <span className="navbar-email">cdavidmill@aol.com</span>
           <span className="navbar-phone">07525 814776</span>
         </div>
       </nav>
