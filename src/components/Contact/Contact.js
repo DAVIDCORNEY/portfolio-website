@@ -46,6 +46,7 @@ const Contact = () => {
                 </a>
               </li>
             </ul>
+            <div className="btn btn-primary">Download My CV</div>
           </div>
         </div>
       </div>
