@@ -44,7 +44,9 @@ const Navigation = () => {
           <a className="navbar-email" href="mailto:cdavidmill@aol.com">
             cdavidmill@aol.com
           </a>
-          <div className="navbar-phone">07525 814776</div>
+          <a className="navbar-phone" href="tel:07525 814776">
+            07525 814776
+          </a>
           <a
             className="navbar-linkedin"
             href="https://www.linkedin.com/in/david-corney/"
