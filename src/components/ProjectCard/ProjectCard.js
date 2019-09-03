@@ -1,5 +1,6 @@
 import React from "react";
 import "./ProjectCard.css";
+import { FaExpandArrowsAlt } from "react-icons/fa";
 
 const ProjectCard = ({ thumbNail, alt, projectTitle, description }) => {
   return (
@@ -7,7 +8,7 @@ const ProjectCard = ({ thumbNail, alt, projectTitle, description }) => {
       <a className="project-link" data-toggle="modal" href="#projectModal1">
         <div className="project-hover">
           <div className="project-hover-content">
-            <i className="fas fa-plus fa-3x"></i>
+            <FaExpandArrowsAlt />
           </div>
         </div>
         <img className="img-fluid" src={thumbNail} alt={alt} />
