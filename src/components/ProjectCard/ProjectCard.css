@@ -25,6 +25,17 @@
   opacity: 1;
 }
 
+.project-item .project-link .project-hover .project-hover-content {
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 20px;
+  margin-top: -9%;
+  text-align: center;
+  color: white;
+}
+
 .project-item .project-caption {
   max-width: 400px;
   margin: 0 auto;
