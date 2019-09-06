@@ -21,6 +21,7 @@ const Projects = () => {
             alt={"DC News"}
             projectTitle={"Threads"}
             description={"Illustration"}
+            id={"projectModal1"}
           />
           <ProjectCard
             thumbNail={
@@ -29,6 +30,7 @@ const Projects = () => {
             alt={"MeetUp"}
             projectTitle={"MeetUp"}
             description={"Meeting App"}
+            id={"projectModal2"}
           />
           <ProjectCard
             thumbNail={
@@ -37,6 +39,7 @@ const Projects = () => {
             alt={"RGB Colour Picker Game"}
             projectTitle={"Colour Picker"}
             description={"Colour Picker Game"}
+            id={"projectModal3"}
           />
         </div>
       </div>
