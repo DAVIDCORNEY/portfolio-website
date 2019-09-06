@@ -1,4 +1,5 @@
 import React from "react";
+import "./ProjectModal.css";
 
 const ProjectModal = () => {
   return (
