@@ -1,5 +1,6 @@
 import React from "react";
 import "./ProjectCard.css";
+import ProjectModal from "../ProjectModal/ProjectModal";
 import { FaExpandArrowsAlt } from "react-icons/fa";
 
 const ProjectCard = ({ thumbNail, alt, projectTitle, description }) => {
@@ -17,6 +18,7 @@ const ProjectCard = ({ thumbNail, alt, projectTitle, description }) => {
         <h4>{projectTitle}</h4>
         <p className="text-muted">{description}</p>
       </div>
+      <ProjectModal />
     </div>
   );
 };
