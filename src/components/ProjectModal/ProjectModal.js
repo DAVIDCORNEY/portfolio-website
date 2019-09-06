@@ -21,7 +21,6 @@ const ProjectModal = () => {
             <div class="row">
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
-                  {/* <!-- Project Details Go Here --> */}
                   <h2 class="text-uppercase">Project Name</h2>
                   <p class="item-intro text-muted">
                     Lorem ipsum dolor sit amet consectetur.
