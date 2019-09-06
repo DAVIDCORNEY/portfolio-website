@@ -19,9 +19,14 @@ const Projects = () => {
               "https://res.cloudinary.com/dcs/image/upload/v1567172702/Portfolio%20Website/dc-news-thumbnail-jpg.png"
             }
             alt={"DC News"}
-            projectTitle={"Threads"}
-            description={"Illustration"}
+            projectTitle={"DC News"}
+            description={"Article Aggregation Website"}
+            fullDescription={
+              "DC News is lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+            }
             id={"projectModal1"}
+            backend={"Back End: Node.js, Express.js, PostgreSQL"}
+            frontend={"Front End: React, HTML, CSS, Bootstrap, Axios"}
           />
           <ProjectCard
             thumbNail={
@@ -30,6 +35,9 @@ const Projects = () => {
             alt={"MeetUp"}
             projectTitle={"MeetUp"}
             description={"Meeting App"}
+            fullDescription={
+              "Meetup is a lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+            }
             id={"projectModal2"}
           />
           <ProjectCard
@@ -39,6 +47,9 @@ const Projects = () => {
             alt={"RGB Colour Picker Game"}
             projectTitle={"Colour Picker"}
             description={"Colour Picker Game"}
+            fullDescription={
+              "RGB color picker is a lorem ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+            }
             id={"projectModal3"}
           />
         </div>
