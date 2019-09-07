@@ -99,6 +99,24 @@ const Projects = () => {
             }
             id={"projectModal3"}
             frontend={"Javascript, HTML, CSS"}
+            frontEndHosting={
+              <a
+                href="https://codepen.io/dcs/full/JvmKVZ"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://codepen.io/dcs/full/JvmKVZ
+              </a>
+            }
+            backEndGit={
+              <a
+                href="https://codepen.io/dcs/pen/JvmKVZ"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://codepen.io/dcs/pen/JvmKVZ
+              </a>
+            }
           />
         </div>
       </div>
