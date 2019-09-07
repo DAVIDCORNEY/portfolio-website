@@ -10,9 +10,9 @@ const ProjectModal = ({
   backend,
   frontend,
   frontEndHosting,
-  frontEndGit,
+  frontEndCode,
   backEndHosting,
-  backEndGit
+  backEndCode
 }) => {
   return (
     <div
@@ -48,9 +48,9 @@ const ProjectModal = ({
                   </ul>
                   <ul class="list-inline">
                     <li>{frontEndHosting}</li>
-                    <li>{frontEndGit}</li>
+                    <li>{frontEndCode}</li>
                     <li>{backEndHosting}</li>
-                    <li>{backEndGit}</li>
+                    <li>{backEndCode}</li>
                   </ul>
                   <button
                     class="btn btn-primary"
