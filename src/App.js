@@ -1,4 +1,5 @@
 import React from "react";
+import { Router, navigate } from "@reach/router";
 import "./App.css";
 import Navigation from "./components/Navigation/Navigation";
 import HomePageImage from "./components/HomePageImage/HomePageImage";
