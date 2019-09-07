@@ -13,9 +13,9 @@ const ProjectCard = ({
   backend,
   frontend,
   frontEndHosting,
-  frontEndGit,
+  frontEndCode,
   backEndHosting,
-  backEndGit
+  backEndCode
 }) => {
   return (
     <div className="col-md-4 col-sm-6 project-item">
@@ -40,9 +40,9 @@ const ProjectCard = ({
         backend={backend}
         frontend={frontend}
         frontEndHosting={frontEndHosting}
-        frontEndGit={frontEndGit}
+        frontEndCode={frontEndCode}
         backEndHosting={backEndHosting}
-        backEndGit={backEndGit}
+        backEndCode={backEndCode}
       />
     </div>
   );
