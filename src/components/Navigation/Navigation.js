@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navigation.css";
-import { FaMobileAlt, FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Navigation = () => {
   return (
