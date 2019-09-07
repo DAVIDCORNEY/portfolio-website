@@ -27,6 +27,42 @@ const Projects = () => {
             id={"projectModal1"}
             backend={"Back End: Node.js, Express.js, PostgreSQL"}
             frontend={"Front End: React, HTML, CSS, Bootstrap, Axios"}
+            frontEndHosting={
+              <a
+                href="https://dcnews.netlify.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://dcnews.netlify.com
+              </a>
+            }
+            frontEndGit={
+              <a
+                href="https://github.com/DAVIDCORNEY/dcnews"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://github.com/DAVIDCORNEY/dcnews
+              </a>
+            }
+            backEndHosting={
+              <a
+                href="https://dc-news.herokuapp.com/api"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://dc-news.herokuapp.com/api
+              </a>
+            }
+            backEndGit={
+              <a
+                href="https://github.com/DAVIDCORNEY/ncnews"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://github.com/DAVIDCORNEY/ncnews
+              </a>
+            }
           />
           <ProjectCard
             thumbNail={
@@ -41,6 +77,15 @@ const Projects = () => {
             id={"projectModal2"}
             backend={"Backend: Firebase"}
             frontend={"Front End: React, HTML, CSS, Bootstrap, Axios"}
+            frontEndGit={
+              <a
+                href="https://github.com/DAVIDCORNEY/meetup"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://github.com/DAVIDCORNEY/meetup
+              </a>
+            }
           />
           <ProjectCard
             thumbNail={
