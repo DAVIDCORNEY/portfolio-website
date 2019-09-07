@@ -8,7 +8,11 @@ const ProjectModal = ({
   description,
   fullDescription,
   backend,
-  frontend
+  frontend,
+  frontEndHosting,
+  frontEndGit,
+  backEndHosting,
+  backEndGit
 }) => {
   return (
     <div
@@ -41,6 +45,12 @@ const ProjectModal = ({
                     <li>Technologies Used</li>
                     <li>{backend}</li>
                     <li>{frontend}</li>
+                  </ul>
+                  <ul class="list-inline">
+                    <li>{frontEndHosting}</li>
+                    <li>{frontEndGit}</li>
+                    <li>{backEndHosting}</li>
+                    <li>{backEndGit}</li>
                   </ul>
                   <button
                     class="btn btn-primary"
