@@ -36,7 +36,7 @@ const Projects = () => {
                 https://dcnews.netlify.com
               </a>
             }
-            frontEndGit={
+            frontEndCode={
               <a
                 href="https://github.com/DAVIDCORNEY/dcnews"
                 target="_blank"
@@ -54,7 +54,7 @@ const Projects = () => {
                 https://dc-news.herokuapp.com/api
               </a>
             }
-            backEndGit={
+            backEndCode={
               <a
                 href="https://github.com/DAVIDCORNEY/ncnews"
                 target="_blank"
@@ -77,7 +77,7 @@ const Projects = () => {
             id={"projectModal2"}
             backend={"Backend: Firebase"}
             frontend={"Front End: React, HTML, CSS, Bootstrap, Axios"}
-            frontEndGit={
+            frontEndCode={
               <a
                 href="https://github.com/DAVIDCORNEY/meetup"
                 target="_blank"
@@ -108,7 +108,7 @@ const Projects = () => {
                 https://codepen.io/dcs/full/JvmKVZ
               </a>
             }
-            backEndGit={
+            backEndCode={
               <a
                 href="https://codepen.io/dcs/pen/JvmKVZ"
                 target="_blank"
