@@ -22,7 +22,7 @@ const Projects = () => {
             projectTitle={"DC News"}
             description={"Article Aggregation Website"}
             fullDescription={
-              "DC News is lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+              "DC News is a Full-stack article aggregation website. Users can preview all of the articles or select to view articles by topic, which can be sorted by date, comment count or votes. If logged in, users can vote up or down on an article or comment and are also able to add comments and delete comments they have made."
             }
             id={"projectModal1"}
             backend={"Back End: Node.js, Express.js, PostgreSQL"}
@@ -72,11 +72,11 @@ const Projects = () => {
             projectTitle={"MeetUp"}
             description={"Meeting App"}
             fullDescription={
-              "Meetup is a lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+              "Meetup is an application allowing registered users to add meetings and check in attendees. A logged in user can view meetings and see and filter the attendees. Users that have arranged the meeting can also email users and delete them where required. The application uses the Firebase real time database and Firebase authentication"
             }
             id={"projectModal2"}
             backend={"Backend: Firebase"}
-            frontend={"Front End: React, HTML, CSS, Bootstrap, Axios"}
+            frontend={"Front End: React, HTML, CSS, Bootstrap"}
             frontEndCode={
               <a
                 href="https://github.com/DAVIDCORNEY/meetup"
@@ -95,7 +95,7 @@ const Projects = () => {
             projectTitle={"Colour Picker"}
             description={"Colour Picker Game"}
             fullDescription={
-              "RGB color picker is a lorem ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+              "Colour Picker is a game which allows users to select from a series of colour blocks, until they select the winning colour. A user can select to play either the easy or hard version of the game. The easy version renders 3 randomly generated colour blocks, while the hard version renders 6."
             }
             id={"projectModal3"}
             frontend={"Javascript, HTML, CSS"}
