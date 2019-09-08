@@ -41,12 +41,12 @@ const ProjectModal = ({
                     alt=""
                   />
                   <p>{fullDescription}</p>
-                  <ul class="list-inline">
+                  <ul className="list-inline">
                     <li>Technologies Used</li>
                     <li>{backend}</li>
                     <li>{frontend}</li>
                   </ul>
-                  <ul class="list-inline">
+                  <ul className="list-inline">
                     <li>{frontEndHosting}</li>
                     <li>{frontEndCode}</li>
                     <li>{backEndHosting}</li>

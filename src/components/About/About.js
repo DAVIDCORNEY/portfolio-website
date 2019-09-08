@@ -48,26 +48,26 @@ const About = () => {
           <div className="skills">
             <h4 className="text-muted">Programming Languages and Tools</h4>
             <div className="skills-icons">
-              <ul class="list-inline dev-icons">
-                <li class="list-inline-item">
+              <ul className="list-inline dev-icons">
+                <li className="list-inline-item">
                   <FaJsSquare />
                 </li>
-                <li class="list-inline-item">
+                <li className="list-inline-item">
                   <FaReact />
                 </li>
-                <li class="list-inline-item">
+                <li className="list-inline-item">
                   <FaNode />
                 </li>
-                <li class="list-inline-item">
+                <li className="list-inline-item">
                   <FaGitSquare />
                 </li>
-                <li class="list-inline-item">
+                <li className="list-inline-item">
                   <FaNpm />
                 </li>
-                <li class="list-inline-item">
+                <li className="list-inline-item">
                   <FaHtml5 />
                 </li>
-                <li class="list-inline-item">
+                <li className="list-inline-item">
                   <FaCss3Alt />
                 </li>
               </ul>
