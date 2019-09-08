@@ -33,10 +33,13 @@ const About = () => {
                 I am a Junior Full Stack Developer recently graduated from the
                 Northcoders coding Bootcamp in Manchester. Track record of
                 working well in a team in a fast-paced environment and working
-                well under my initiative.I am a Junior Full Stack Developer
-                recently graduated from the Northcoders coding Bootcamp in
-                Manchester. Track record of working well in a team in a
-                fast-paced environment and working well under my initiative.
+                well under my initiative. I really enjoy learning new tech and
+                the collaborative nature of the industry and am looking forward
+                to expanding my knowledge and contributing to and growing with a
+                business. I am currently working through a React.js course to
+                get exposure to React Hooks and Next.js. My other interests
+                include music, cooking (because I enjoy eating!) and running (so
+                I can eat more delicious food!).
               </p>
             </div>
           </div>
