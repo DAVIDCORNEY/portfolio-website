@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6aaf4f53f2f81440fb62a46cc0ce0dd2",
+    "revision": "9b705f20065ec238deba47bc6a18626d",
     "url": "/DAVIDCORNEY/portfolio-website/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/DAVIDCORNEY/portfolio-website/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "f658fb294c06658f8e83",
+    "revision": "6a5283b2460a9399c5dd",
     "url": "/DAVIDCORNEY/portfolio-website/static/css/main.d7b401ba.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/DAVIDCORNEY/portfolio-website/static/js/2.ec36e29f.chunk.js"
   },
   {
-    "revision": "f658fb294c06658f8e83",
-    "url": "/DAVIDCORNEY/portfolio-website/static/js/main.d9b09418.chunk.js"
+    "revision": "6a5283b2460a9399c5dd",
+    "url": "/DAVIDCORNEY/portfolio-website/static/js/main.85798433.chunk.js"
   },
   {
     "revision": "c1d3d4d6b47fe210c1a5",
