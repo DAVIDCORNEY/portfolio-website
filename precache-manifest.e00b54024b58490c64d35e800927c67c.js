@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "67957bb67ae9bb443d69caf149f0bf53",
+    "revision": "9649e7f37fabe34bbfd4f592a44a7444",
     "url": "/DAVIDCORNEY/portfolio-website/index.html"
   },
   {
-    "revision": "37823c9aa04bca0500b9",
+    "revision": "7e2345c46b075abdbd07",
     "url": "/DAVIDCORNEY/portfolio-website/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "33be0f24ab55138eb457",
+    "revision": "27e8d689095bde20e27a",
     "url": "/DAVIDCORNEY/portfolio-website/static/css/main.d7b401ba.chunk.css"
   },
   {
-    "revision": "37823c9aa04bca0500b9",
-    "url": "/DAVIDCORNEY/portfolio-website/static/js/2.b2e92e98.chunk.js"
+    "revision": "7e2345c46b075abdbd07",
+    "url": "/DAVIDCORNEY/portfolio-website/static/js/2.ec36e29f.chunk.js"
   },
   {
-    "revision": "33be0f24ab55138eb457",
-    "url": "/DAVIDCORNEY/portfolio-website/static/js/main.88ab89dc.chunk.js"
+    "revision": "27e8d689095bde20e27a",
+    "url": "/DAVIDCORNEY/portfolio-website/static/js/main.ce49d560.chunk.js"
   },
   {
     "revision": "c1d3d4d6b47fe210c1a5",
