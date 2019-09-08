@@ -6,7 +6,7 @@ import "./App.css";
 function App() {
   return (
     <Router>
-      <Home path="/" />
+      <Home path="/portfolio-website/" />
     </Router>
   );
 }
