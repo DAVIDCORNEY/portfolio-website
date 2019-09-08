@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/DAVIDCORNEY/portfolio-website",
+  "homepage": "https://github.com/DAVIDCORNEY/portfolio-website/",
   "dependencies": {
     "@reach/router": "^1.2.1",
     "bootstrap": "^4.3.1",
