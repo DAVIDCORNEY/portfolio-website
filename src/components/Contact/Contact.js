@@ -32,7 +32,10 @@ const Contact = () => {
               </p>
               <p>
                 <FaEnvelope />
-                <a href="mailto:cdavidmill@aol.com"> cdavidmill@aol.com</a>
+                <a href="mailto:david@davidcorney.tech">
+                  {" "}
+                  david@davidcorney.tech
+                </a>
               </p>
             </div>
           </div>
