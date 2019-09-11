@@ -44,9 +44,9 @@ const Navigation = () => {
           <div className="email">
             <a
               className="navbar-email nav-contact"
-              href="mailto:cdavidmill@aol.com"
+              href="mailto:david@davidcorney.tech"
             >
-              cdavidmill@aol.com
+              david@davidcorney.tech
             </a>
           </div>
           <div className="phone">
