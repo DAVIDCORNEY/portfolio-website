@@ -64,7 +64,7 @@ const Contact = () => {
           <div className="col-lg-4">
             <a
               className="btn btn-primary btn-lg download-cv"
-              href="https://res.cloudinary.com/dcs/image/upload/v1567420059/David%20Corney%20CV/David-Corney-CV.pdf"
+              href="https://res.cloudinary.com/dcs/image/upload/v1569421459/David%20Corney%20CV/david_corney_cv.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
