@@ -101,7 +101,7 @@ const Projects = () => {
             frontend={"Front End: React, HTML, CSS, CSS Grid ,Flexbox, Axios"}
             frontEndHosting={
               <a
-                href="https://terrible-jokes.netlify."
+                href="https://terrible-jokes.netlify"
                 target="_blank"
                 rel="noopener noreferrer"
               >
