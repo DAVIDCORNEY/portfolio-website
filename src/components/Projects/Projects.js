@@ -105,7 +105,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                https://terrible-jokes.netlify.
+                https://terrible-jokes.netlify
               </a>
             }
             frontEndCode={
