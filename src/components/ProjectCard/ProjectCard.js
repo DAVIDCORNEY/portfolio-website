@@ -18,7 +18,7 @@ const ProjectCard = ({
   backEndCode
 }) => {
   return (
-    <div className="col-md-4 col-sm-6 project-item">
+    <div className="col-md-6 col-sm-6 project-item">
       <a className="project-link" data-toggle="modal" href={`#${id}`}>
         <div className="project-hover">
           <div className="project-hover-content">

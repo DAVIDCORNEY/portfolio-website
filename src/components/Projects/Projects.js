@@ -89,6 +89,37 @@ const Projects = () => {
           />
           <ProjectCard
             thumbNail={
+              "https://res.cloudinary.com/dcs/image/upload/v1572979283/Portfolio%20Website/Screenshot_2019-11-05_at_18.37.22.png"
+            }
+            alt={"Terrible Jokes"}
+            projectTitle={"Terrible Jokes"}
+            description={"Joke App"}
+            fullDescription={
+              "Terrible Jokes is a React application which allows users to get Jokes and rate them numerically. The position of the Joke will move as they are voted on and the emojis expression will also change in response to the vote. A further 10 jokes will be fetched, every time the New Jokes button is pressed. Warning, the Jokes are terrible!!! "
+            }
+            id={"projectModal3"}
+            frontend={"Front End: React, HTML, CSS, CSS Grid ,Flexbox, Axios"}
+            frontEndHosting={
+              <a
+                href="https://terrible-jokes.netlify."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://terrible-jokes.netlify.
+              </a>
+            }
+            frontEndCode={
+              <a
+                href="https://github.com/DAVIDCORNEY/terrible-jokes"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://github.com/DAVIDCORNEY/terrible-jokes
+              </a>
+            }
+          />
+          <ProjectCard
+            thumbNail={
               "https://res.cloudinary.com/dcs/image/upload/v1567173979/Portfolio%20Website/rgb-color-picker-game.jpg.png"
             }
             alt={"RGB Colour Picker Game"}
@@ -97,7 +128,7 @@ const Projects = () => {
             fullDescription={
               "Colour Picker is a game which allows users to select from a series of colour blocks, until they select the winning colour. A user can select to play either the easy or hard version of the game. The easy version renders 3 randomly generated colour blocks, while the hard version renders 6."
             }
-            id={"projectModal3"}
+            id={"projectModal4"}
             frontend={"Javascript, HTML, CSS"}
             frontEndHosting={
               <a
